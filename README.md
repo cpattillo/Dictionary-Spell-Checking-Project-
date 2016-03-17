@@ -3,7 +3,7 @@ Implements a hash table to spell check a document
 
 HashTable class details:
 
-	I implemented my hash table using the chaining method. I have a HashTable class with an array of linked list (LL) strings.
+I implemented my hash table using the chaining method. I have a HashTable class with an array of linked list (LL) strings.
 created a private data member ptr, which is a pointer to a LL full of strings (LL<string>). The other private data members include:
 table size, number of elements, an internal hash function, and the number of collisions. In my HashTable constructor I set the table
 size to 47087 as the default parameter and then set ptr to point to a dynamic array filled with LL<string> values. The other public
@@ -19,7 +19,7 @@ LL class which traverses the list, compares keys and returns true if the element
 	
 How to run the project: 
 
-	The first command line argument is the personal dictionary and the second argument is the spell checking text file. The third
+The first command line argument is the personal dictionary and the second argument is the spell checking text file. The third
 argument is the personal dictionary file. In main I test if there are arguments and then get the file paths of these arguments from
 the command line. If there is a third command argument, I call my loadDictionayData function with a bool value set to true and pass
 the file path for the third argument. Else, I call the loadDictionaryData function with the bool value set to false and a null string
